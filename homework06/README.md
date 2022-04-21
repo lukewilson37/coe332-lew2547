@@ -3,7 +3,7 @@
 By: Luke Wilson
 Due: 04/19/2022\n\n
 
-The following homework uses kubernetes, a distributed system, to create a [Meteorite landing Data][https://raw.githubusercontent.com/wjallen/coe332-sample-data/main/ML_Data_Sample.json] Service whose information persisst throughout time. 
+The following homework uses kubernetes, a distributed system, to create a [Meteorite landing Data](https://raw.githubusercontent.com/wjallen/coe332-sample-data/main/ML_Data_Sample.json) Service whose information persisst throughout time. 
 
 ## Contents
 
