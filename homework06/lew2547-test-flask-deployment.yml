@@ -8,7 +8,7 @@ metadata:
     username: lew2547
     env: test
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: lew2547-test-flask
