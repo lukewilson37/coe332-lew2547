@@ -1,0 +1,34 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lew2547-test-redis-deployment
+  labels:
+    app: lew2547-test-redis
+    username: lew2547
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lew2547-test-redis
+      username: lew2547
+      env: test
+  template:
+    metadata:
+      labels:
+        username: lew2547
+        env: test
+        app: lew2547-test-redis
+    spec:
+      containers:
+        - name: redis-app
+          image: redis:6
+          command:
+          volumeMounts:
+          - name: lew2547-test-redis-data
+            mountPath: "/data"
+      volumes:
+      - name: lew2547-test-redis-data
+        persistentVolumeClaim:
+          claimName: lew2547-test-redis-data

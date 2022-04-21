@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lew2547-test-flask
+spec:
+  type: ClusterIP
+  selector:
+    app: lew2547-test-flask
+  ports:
+  - name: lew2547-test-flask
+    port: 5037
+    targetPort: 5000
