@@ -8,7 +8,7 @@ metadata:
     username: lew2547
     env: test
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: lew2547-test-flask
@@ -28,4 +28,4 @@ spec:
             value: "app.py"
           ports:
           - name: http
-            containerPort: 5000
+            containerPort: 5037
