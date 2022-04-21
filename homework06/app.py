@@ -20,7 +20,7 @@ def get_redis_client():
 
 @app.route('/',methods=['GET'])
 def hello_world():
-	return 'Hello World 2'
+	return 'Hello World\n'
 
 @app.route('/data',methods=['GET','POST'])
 def data_route():
