@@ -45,5 +45,4 @@ To run the analysis, you may simply run the script with
 ```bash
 $ python3 analyze_water.py
 ```
-This runs the script on our base data set I detailed how to download earlier. If you wish to use a different data set you may edit the function ```python main()``` in the script. The file must convert to dictionary format however you wish to do that.
-
+This runs the script on our base data set I detailed how to download earlier. If you wish to use a different data set you may edit the function ```main()``` in the script. The file must convert to dictionary format however you wish to do that.
