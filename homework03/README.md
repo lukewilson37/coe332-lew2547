@@ -31,7 +31,19 @@ The four functions used are:
 	- test_check_turbidity_safety
 	- test_check_turbidity_safety_exceptions
 
+## Downloading the data
+
+To download the data we used in this analysis, simply run
+```bash 
+$ wget https://raw.githubusercontent.com/wjallen/turbidity/main/turbidity_data.json
+```
+in the same directory as the analysis script.
+
 ## Running the Code
 
-
+To run the analysis, you may simply run the script with
+```bash
+$ python3 analyze_water.py
+```
+This runs the script on our base data set I detailed how to download earlier. If you wish to use a different data set you may edit the function ```python main()``` in the script. The file must convert to dictionary format however you wish to do that.
 
