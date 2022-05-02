@@ -1,7 +1,7 @@
 # COE332 HW6: Using Kubernetes to Create a Meteorite Landing Data Service
 
 By: Luke Wilson
-Due: 04/19/2022\n\n
+Due: 04/19/2022
 
 The following homework uses kubernetes, a distributed system, to create a [Meteorite landing Data](https://raw.githubusercontent.com/wjallen/coe332-sample-data/main/ML_Data_Sample.json) Service whose information persisst throughout time. 
 
