@@ -6,7 +6,7 @@
 #### 02/01/2022
 
 For the first assignment in COE 332, we create two python scripts from the command line; something I am not previously familiar with. I used the terminal editor vim to create these scripts. 
-To do this, I had to ``` install``` python3, as well as ```pip install`` math to use
+To do this, I had to  ```pip install math``` to use the math python package.
 ## Contents
 
 ### print-primes.py
